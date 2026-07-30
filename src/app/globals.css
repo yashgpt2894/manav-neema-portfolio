@@ -224,6 +224,81 @@
   transform: translateY(0);
 }
 
+@keyframes hero-wordmark-in {
+  from {
+    opacity: 0;
+    letter-spacing: -0.14em;
+    transform: translate(-50%, 2rem);
+  }
+  to {
+    opacity: 1;
+    letter-spacing: -0.085em;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes hero-portrait-in {
+  from {
+    clip-path: inset(100% 0 0 0);
+    opacity: 0;
+    transform: translate(-50%, 3rem) scale(0.96);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@keyframes hero-chip-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem) rotate(0deg);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hero-copy-in {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-wordmark {
+  animation: hero-wordmark-in 900ms cubic-bezier(.16, 1, .3, 1) 80ms both;
+}
+
+.hero-portrait {
+  animation: hero-portrait-in 1050ms cubic-bezier(.16, 1, .3, 1) 180ms both;
+}
+
+.hero-chip {
+  animation: hero-chip-in 680ms cubic-bezier(.16, 1, .3, 1) both;
+}
+
+.hero-chip-one {
+  animation-delay: 650ms;
+}
+
+.hero-chip-two {
+  animation-delay: 760ms;
+}
+
+.hero-chip-three {
+  animation-delay: 870ms;
+}
+
+.hero-copy {
+  animation: hero-copy-in 760ms cubic-bezier(.16, 1, .3, 1) 940ms both;
+}
+
 @keyframes marquee {
   to {
     transform: translateX(-50%);

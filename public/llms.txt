@@ -1,0 +1,43 @@
+# Manav Neema
+
+> Amsterdam-based data engineer and ML systems builder focused on reliable data platforms, streaming systems, analytics engineering, and production machine learning.
+
+## Canonical identity
+
+- Full name: Manav Neema
+- Location: Amsterdam, The Netherlands
+- LinkedIn: https://www.linkedin.com/in/manav-neema-4696a71aa/
+- Email: neemamanav@gmail.com
+- Resume: /downloads/manav-neema-resume.pdf
+
+## Professional focus
+
+- Data engineering
+- Analytics engineering
+- Machine learning systems
+- Responsible AI and GDPR-compliant data anonymisation
+
+## Experience
+
+- Bridgestone Mobility Solutions, Data Science Intern, Amsterdam, April 2025 to February 2026
+  - Built batch and real-time Azure Databricks pipelines processing telematics events through Apache Kafka.
+  - Operationalised end-to-end ML workflows covering ETL, deployment, monitoring, versioning, and downstream integration.
+  - Implemented exploratory analysis, data validation, and production monitoring for client-facing fleet analytics.
+- Vrije Universiteit Amsterdam, Teaching Assistant, Amsterdam, February 2025 to March 2025
+  - Mentored undergraduate computer science students in requirements elicitation, analysis, and UML modelling.
+- ZS, Associate Consultant - Data Analytics and Engineering, Pune, December 2023 to July 2024
+  - Designed scalable data solutions, fine-grained Snowflake access control, and Tableau integrations.
+  - Led data engineers through production incidents and scalability bottlenecks.
+- ZS, Associate - Data Analytics and Engineering, Pune, June 2021 to December 2023
+  - Migrated a legacy financial warehouse to Databricks and Snowflake.
+  - Built Databricks-native orchestration, data transformations, semantic models, and knowledge graph ingestion with SPARQL and GraphQL endpoints.
+
+## Education and research
+
+- M.Sc. Computer Science, Big Data Engineering, University of Amsterdam and Vrije Universiteit Amsterdam, 2024 to 2026
+- B.Tech Information Technology, NMIMS University, 2017 to 2021
+- Research: GDPR-compliant anonymisation techniques, differential privacy, synthetic data, privacy, fairness, and utility for ML pipelines
+
+## Skills
+
+SQL, Python, PySpark, Pandas, Apache Kafka, Azure Databricks, Snowflake, AWS S3, EC2, SageMaker, Neptune, Stardog, GraphQL, SPARQL, Airflow, CI/CD, Tableau, EDA, dimensional modelling, data quality, monitoring, and self-serve analytics.

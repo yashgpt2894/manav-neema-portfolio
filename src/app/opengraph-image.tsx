@@ -1,5 +1,7 @@
 import { ImageResponse } from "next/og";
 
+export const dynamic = "force-static";
+
 export const alt =
   "Manav Neema - Data Engineer and Machine Learning Systems Builder";
 export const size = {

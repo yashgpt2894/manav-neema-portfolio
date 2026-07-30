@@ -93,7 +93,7 @@ export function SiteNav() {
           <a
             href="https://www.linkedin.com/in/manav-neema-4696a71aa/"
             target="_blank"
-            rel="noreferrer"
+            rel="me noreferrer"
             aria-label="Visit Manav Neema on LinkedIn"
             className="grid size-10 place-items-center rounded-full border border-black/20 transition-transform duration-300 hover:-translate-y-0.5 hover:bg-[var(--paper)]"
           >
@@ -180,7 +180,7 @@ export function SiteNav() {
             <a
               href="https://www.linkedin.com/in/manav-neema-4696a71aa/"
               target="_blank"
-              rel="noreferrer"
+              rel="me noreferrer"
               aria-label="Visit Manav Neema on LinkedIn"
               className="grid size-12 shrink-0 place-items-center rounded-full bg-[var(--acid)] text-[var(--ink)]"
             >

@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Bricolage_Grotesque, DM_Sans } from "next/font/google";
+
+import { siteUrl } from "@/lib/site";
+
 import "./globals.css";
 
 const bodyFont = DM_Sans({
@@ -15,6 +18,7 @@ const displayFont = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Manav Neema | Data Engineer & ML Systems Builder",
   description:
     "Amsterdam-based data engineer building reliable data platforms, streaming systems, and production ML workflows across Databricks, Snowflake, Kafka, and cloud.",
@@ -30,6 +34,21 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Manav Neema" }],
   creator: "Manav Neema",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  category: "technology",
   openGraph: {
     title: "Manav Neema | Data Engineer & ML Systems Builder",
     description:

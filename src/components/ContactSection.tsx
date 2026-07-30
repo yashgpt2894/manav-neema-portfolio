@@ -49,7 +49,7 @@ export function ContactSection() {
               <a
                 className="group inline-flex items-center gap-2 border-b-2 border-[var(--ink)] pb-1 text-sm font-black uppercase tracking-[0.06em] transition-opacity hover:opacity-55 focus-visible:outline-[3px] focus-visible:outline-offset-4 focus-visible:outline-[var(--ink)]"
                 href="https://www.linkedin.com/in/manav-neema-4696a71aa/"
-                rel="noreferrer"
+                rel="me noreferrer"
                 target="_blank"
               >
                 LinkedIn
