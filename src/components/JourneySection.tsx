@@ -47,9 +47,8 @@ export function JourneySection() {
     >
       <div className="page-shell">
         <div
-          id="about"
           data-reveal
-          className="scroll-mt-24 border-b border-black/20 pb-12 md:pb-16"
+          className="border-b border-black/20 pb-12 md:pb-16"
         >
           <p className="eyebrow mb-7 text-black/60">The journey</p>
           <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.42fr)] lg:items-end">
