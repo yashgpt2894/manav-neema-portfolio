@@ -1,5 +1,3 @@
-import { ArrowUpRight } from "lucide-react";
-
 import type { ImpactItem } from "@/types/portfolio";
 
 const impactItems = [
@@ -106,22 +104,15 @@ export function ImpactSection() {
               />
 
               <div className="flex h-full flex-col">
-                <div className="flex items-start justify-between gap-6">
-                  <div>
-                    <span
-                      className={`inline-flex min-h-7 items-center rounded-full px-3 py-1 text-[0.65rem] font-black tracking-[0.11em] ${accentToneClasses[item.tone]}`}
-                    >
-                      {item.index}
-                    </span>
-                    <p className="mt-4 text-xs font-bold uppercase leading-relaxed tracking-[0.1em] text-white/55">
-                      {item.context}
-                    </p>
-                  </div>
-                  <ArrowUpRight
-                    aria-hidden="true"
-                    className="h-7 w-7 shrink-0 text-white/65 transition-transform duration-500 ease-out group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white"
-                    strokeWidth={1.5}
-                  />
+                <div>
+                  <span
+                    className={`inline-flex min-h-7 items-center rounded-full px-3 py-1 text-[0.65rem] font-black tracking-[0.11em] ${accentToneClasses[item.tone]}`}
+                  >
+                    {item.index}
+                  </span>
+                  <p className="mt-4 text-xs font-bold uppercase leading-relaxed tracking-[0.1em] text-white/55">
+                    {item.context}
+                  </p>
                 </div>
 
                 <div className="mt-auto pt-24">
