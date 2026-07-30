@@ -6,9 +6,11 @@ node_modules/
 # Build
 .next/
 out/
-build/
+build/*
+!build/sites-vite-plugin.ts
 dist/
 .vinext/
+.wrangler/
 
 # Environment
 .env
