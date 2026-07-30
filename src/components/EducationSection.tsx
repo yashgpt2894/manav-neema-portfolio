@@ -39,11 +39,11 @@ export function EducationSection() {
       id="education"
     >
       <div className="page-shell section-pad">
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,0.72fr)_minmax(0,1.28fr)] lg:gap-16 xl:gap-24">
-          <div className="lg:sticky lg:top-28 lg:self-start" data-reveal>
+        <div className="grid gap-12 xl:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] xl:gap-16 2xl:gap-24">
+          <div className="xl:sticky xl:top-28 xl:self-start" data-reveal>
             <p className="eyebrow mb-6">Education / Practice</p>
             <h2
-              className="display-heading max-w-[11ch]"
+              className="max-w-[12ch] font-heading text-[clamp(2.85rem,5.6vw,5.5rem)] font-black leading-[0.9] tracking-[-0.055em] text-balance"
               id="education-heading"
             >
               Depth in the theory. Comfortable in the messy middle.
